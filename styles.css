@@ -1,15 +1,27 @@
 /* General Styles */
 html {
     font-size: 16px;
-    background: url('images/bg-top.svg') no-repeat;
-   }
+    background: url('images/bg-top.svg') no-repeat #f7f7ff;
+}
    
 /* Mobile */
 .main {
-    
+    width: 96%;
+    background-color: white;
+}
+.third-1 {
+    display: flex;
+    width: 100%;
 }
 
 /* Desktop */
 @media only screen and (min-width: 1200px) {
-
+.main {
+    display: flex;
+    justify-content: center;
+ }
+.third {
+    width: 25%;
+    outline: solid 1px black;
+}
 }
