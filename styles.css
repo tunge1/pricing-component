@@ -12,7 +12,7 @@ h1 {
 }
 .toggle-options {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .toggle-options h3 {
     font-weight: 100;
