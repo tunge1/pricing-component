@@ -19,29 +19,60 @@ h1 {
     font-size: .875em;
 }
 .main {
-    width: 100%;
-    background-color: white;
-    overflow: auto;
+    width: 92%;
+    margin-left: 4%;
 }
 
-.basic, .pro, .master {
+.basic, .master {
     text-align: center;
     margin: 30px 0;
     width: 100%;
     background-color: white;
+    overflow: auto;
 }
-.test {
-   background-color: white;
+.pro {
+    color: hsl(240, 78%, 98%);
+    background-color: hsl(236, 72%, 79%);
+    text-align: center;
+    margin: 30px 0;
+    width: 100%;
+    overflow: auto;
 }
-
+.lines {
+    border-top:black solid 2px;
+    border-bottom:black solid 2px;
+    width: 85%;
+    margin-left: 7.5%;
+}
+.lines-mid {
+    border-top:white solid 2px;
+    border-bottom:black solid 2px
+    width: 85%;
+    margin-left: 7.5%;
+    padding: 10px 0;
+}
+.learn {
+    background-color: hsl(236, 72%, 79%);
+    width: 75%;
+    text-align: center;
+    margin-left: 12.5%;
+    text-transform: uppercase;
+}
+.learn-pro {
+    background-color: white;
+    width: 75%;
+    text-align: center;
+    margin-left: 12.5%;
+    color: hsl(236, 72%, 79%);
+    text-transform: uppercase;
+}
 /* Desktop */
 @media only screen and (min-width: 1200px) {
 .main {
     display: flex;
     justify-content: center;
  }
-.third {
-    width: 25%;
-    outline: solid 1px black;
+.pro {
+    margin: 0 20px;
 }
 }
