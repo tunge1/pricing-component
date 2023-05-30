@@ -40,6 +40,7 @@ h2 {
     width: 100%;
     background-color: white;
     overflow: auto;
+    border-radius: 4%;
 }
 .pro {
     color: hsl(240, 78%, 98%);
@@ -48,6 +49,7 @@ h2 {
     margin: 30px 0;
     width: 100%;
     overflow: auto;
+    border-radius: 4%;
 }
 .lines {
     border-top:#dcdcdc solid 2px;
@@ -92,6 +94,7 @@ h2 {
     margin: 30px 0 30px 9%;
     text-transform: uppercase;
     padding: 15px 0;
+    border-radius: 4%;
 }
 .learn-pro {
     background-color: white;
@@ -101,6 +104,7 @@ h2 {
     color: hsl(236, 72%, 79%);
     text-transform: uppercase;
     padding: 15px 0;
+    border-radius: 4%;
 }
 /* Desktop */
 @media only screen and (min-width: 1200px) {
